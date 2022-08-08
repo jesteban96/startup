@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+header{
+	background: url(../img/bg.jpg), #019851;
+	background-size: cover;
+	background-position: center 0;
+  	background-repeat: no-repeat;
+}
+
+header a{
+	text-decoration: none;
+	margin-left: 60px;
+	font-size: 20px;
+}
+
+a img{
+	vertical-align: top;
+}
+
+header a:hover{
+	text-decoration:underline;
+}
+
+.logo{
+	padding:25px 0 0px 0;
+	border-bottom:1px solid rgba(255,255,255,.4);
+}
+
+.menu{
+	text-align: center;
+	line-height: 50px;
+}
+
+.textos{
+	color: #fff;
+	text-align: center;
+	margin-top: 200px;
+}
+.primera_linea,
+.segunda_linea{
+	font-family: "Open Sans", Arial, Sans-serif;
+	font-weight: 300;
+}
+.primera_linea{
+	font-size: 35px;
+	line-height: 35px;
+	margin-bottom: 30px;
+}
+.segunda_linea{
+	font-size: 25px;
+	line-height: 25px;
+	margin-bottom: 60px;
+}
+
+.contenedor-btns{
+	margin-bottom: 200px;
+}
+.contenedor-btns a{
+	font-weight: 600;
+	width: 235px;
+	text-align: center;
+	margin: 0 10px;
+}
+
+.contenedor-btns a:hover{
+	text-decoration: none;
+}
+
+.centrar-logo{
+	text-align: center;
+}
+
+.caracteristica .primera_linea {
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.caracteristicas{
+	text-align: center;
+	padding: 70px 0;
+}
+
+.caracteristicas .titulo{
+	font-family: "Open Sans", Arial, Sans-serif;
+	font-weight: 300;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 70px;
+}
+
+.caracteristica .primera_linea{
+	margin-bottom: 10px;
+}
+
+.thumb img{
+	width: 100%;
+	border-radius:3px ;
+}
+
+.foto .titulo{
+	margin-top: 70px;
+	margin-bottom: 20px;
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: 300;
+}
+.azul{
+	color: #4facd3;
+}
+
+.naranja{
+	color: #ddb146;
+}
+
+.derecha{
+	text-align: right;
+}
+
+.clientes{
+	background:#2d353e;
+	margin-top: 40px;
+	padding: 40px 0px;
+}
+
+.clientes .titulo{
+	text-align: center;
+	color: #fff;
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 32px;
+	margin-bottom: 40px;
+}
+
+.cliente{
+	text-align: center;
+}
+
+.cliente a img{
+	border-radius: 3px;
+}
+
+.cliente a .facebook:hover{
+	background: #4267B2;
+	border-radius: 3px;
+}
+
+.cliente a .twitter:hover{
+	background: #1DA1F2;
+	border-radius: 3px;
+}
+
+.cliente a .instagram:hover{
+	background: #405DE6;
+	border-radius: 3px;
+}
+
+.cliente a .youtube:hover{
+	background: #FF0000;
+	border-radius: 3px;
+}
+
+.main .precios{
+	background: url("../img/precios-bg.jpg"), #727171;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding: 70px 0;
+}
+
+.precios .titulo{
+	text-align: center;
+	color: #fff;
+	margin-bottom: 70px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 32px;
+}
+
+.precios .plan{
+		text-align: center;
+		font-family: "Open Sans";
+		padding: 50px 0px;
+		box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.plan .nombre{
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 32px;
+	margin-bottom: 30px;
+}
+
+.plan .precio{
+	font-size: 48px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.plan .caracteristicas{
+	list-style: none;
+	padding: 0px 20px;
+	margin-bottom: 50px;
+}
+
+.caracteristicas li{
+	font-size: 18px;
+	padding: 15px 0px;
+	color: #000;
+	border-bottom: 1px solid #dedede;
+}
+
+.btn{
+	width: 70%;
+	padding: 15px 0px;
+	text-align: center;
+	border-radius: 100px;
+}
+
+.verde{
+	color: #86b773;
+}
+
+.active{
+	background: #4c8dce;
+	color: #fff ;
+}
+
+.list-group-item{
+	color: #fff ;
+}
+
+.caracteristicas .blanco{
+	color: #fff ;
+}
+
+footer .direccion {
+  background: #3c4045;
+  padding: 30px 0;
+  color: #fff; }
+  footer .direccion .titulo {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 30px; }
+  footer .direccion .calle,
+  footer .direccion .telefono,
+  footer .direccion .correo {
+    margin-bottom: 10px; }
+  footer .direccion .logo img {
+    margin-top: 70px; }
+footer .social {
+  text-align: center;
+  padding: 20px 0; }
+  footer .social a {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    font-size: 22px;
+    color: #fff;
+    background: #000;
+    border-radius: 100px; }
+    footer .social a:hover {
+      text-decoration: none; }
+    footer .social a.facebook {
+      background: #3b5998; }
+    footer .social a.twitter {
+      background: #55acee; }
+    footer .social a.youtube {
+      background: #cd201f; }
